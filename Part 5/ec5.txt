@@ -1,0 +1,270 @@
+Problem 1: 
+
+P =
+
+   -0.5268   -0.0364    0.6877    0.2012    0.4558
+    0.4696   -0.6903    0.1045   -0.2883    0.4572
+   -0.1396    0.4783   -0.1655   -0.7245    0.4465
+   -0.4670   -0.2976   -0.6958    0.2768    0.3640
+    0.5141    0.4526   -0.0679    0.5242    0.5014
+
+If basis (P) is orthogonal, P' * P == I
+
+check_diff =
+
+   4.0704e-16
+
+ 
+Problem 2: 
+
+V =
+
+   -10     3     6     0
+     2     3     0     5
+    -6    -3     6     0
+    16     0     6     0
+     2     3     0    -5
+
+ 
+Problem 3: 
+
+ans =
+
+     2
+
+
+x =
+
+    1.0000         0    9.2802  -57.3951         0
+         0    1.0000   -8.4403   59.4996         0
+         0         0         0         0    1.0000
+         0         0         0         0         0
+
+Inconsistent system.
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.554262e-17.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab5', 'D:\OneDrive\UMD\Junior Year\First Semester\MATH461 - Linear Algebra\MATH461-Matlab\Part 5\matlab5.m', 36)" style="font-weight:bold">matlab5</a> (<a href="matlab: opentoline('D:\OneDrive\UMD\Junior Year\First Semester\MATH461 - Linear Algebra\MATH461-Matlab\Part 5\matlab5.m',36,0)">line 36</a>)
+] 
+
+x0 =
+
+   -0.3659
+   -0.2708
+    0.4824
+    1.6264
+
+Not a unique solution.
+
+error =
+
+   -0.1126
+    0.2198
+    0.0740
+   -0.1506
+
+
+check_if_perpendicular =
+
+   1.0e-15 *
+
+   -0.0833   -0.0798   -0.1110    0.0278
+
+The resulting vector is virtually 0, so the error vector is perpendicular to the column space of A.
+
+errlen =
+
+    0.2986
+
+
+errlen =
+
+    2.0693
+
+
+errlen =
+
+    1.6319
+
+
+errlen =
+
+    0.5300
+
+ 
+Problem 4: 
+
+ans =
+
+   2.2204e-16
+
+
+ans =
+
+   3.3307e-16
+
+ 
+Problem 5: 
+
+B =
+
+    1.4509
+    0.8111
+
+The orbit is an ellipse because e < 1.
+
+r =
+
+    1.3300
+
+ 
+Problem 6: 
+
+B =
+
+   -0.8558
+    4.7025
+    5.5554
+   -0.0274
+
+y(t) = -.8558 + 4.7025t + 5.5554t^2 - .0274t^3
+v(t) = dy/dt = 4.7025 + 11.1108t - .0822t^2
+
+velocity =
+
+   53.0365
+
+Problem 1: 
+
+P =
+
+    0.1812   -0.5736   -0.0185   -0.6222    0.5007
+   -0.0803    0.4392   -0.8348   -0.2005    0.2523
+    0.8157    0.2079    0.0634    0.3621    0.3953
+   -0.2356    0.6164    0.5460   -0.3416    0.3871
+   -0.4898   -0.2344   -0.0269    0.5700    0.6161
+
+If basis (P) is orthogonal, P' * P == I
+
+check_diff =
+
+   8.8818e-16
+
+ 
+Problem 2: 
+
+V =
+
+   -10     3     6     0
+     2     3     0     5
+    -6    -3     6     0
+    16     0     6     0
+     2     3     0    -5
+
+ 
+Problem 3: 
+
+ans =
+
+     2
+
+
+x =
+
+    1.0000         0   -2.9862   -2.1173         0
+         0    1.0000    2.6304    1.3877         0
+         0         0         0         0    1.0000
+         0         0         0         0         0
+
+Inconsistent system.
+[Warning: Matrix is close to singular or badly scaled. Results may be inaccurate. RCOND =
+1.565511e-17.] 
+[> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('matlab5', 'D:\OneDrive\UMD\Junior Year\First Semester\MATH461 - Linear Algebra\MATH461-Matlab\Part 5\matlab5.m', 36)" style="font-weight:bold">matlab5</a> (<a href="matlab: opentoline('D:\OneDrive\UMD\Junior Year\First Semester\MATH461 - Linear Algebra\MATH461-Matlab\Part 5\matlab5.m',36,0)">line 36</a>)
+] 
+
+x0 =
+
+    4.1505
+    0.3197
+   -0.0289
+   -3.9716
+
+Not a unique solution.
+
+error =
+
+    0.1652
+   -0.3823
+    0.2140
+    0.1388
+
+
+check_if_perpendicular =
+
+   1.0e-15 *
+
+   -0.1665   -0.1665    0.1110    0.1527
+
+The resulting vector is virtually 0, so the error vector is perpendicular to the column space of A.
+
+errlen =
+
+    0.4884
+
+
+errlen =
+
+    1.5599
+
+
+errlen =
+
+    0.9478
+
+
+errlen =
+
+    0.5874
+
+ 
+Problem 4: 
+
+ans =
+
+   6.5226e-16
+
+
+ans =
+
+   4.4409e-16
+
+ 
+Problem 5: 
+
+B =
+
+    1.4509
+    0.8111
+
+The orbit is an ellipse because e < 1.
+
+r =
+
+    1.3300
+
+ 
+Problem 6: 
+
+B =
+
+   -0.8558
+    4.7025
+    5.5554
+   -0.0274
+
+y(t) = -.8558 + 4.7025t + 5.5554t^2 - .0274t^3
+v(t) = dy/dt = 4.7025 + 11.1108t - .0822t^2
+
+velocity =
+
+   53.0365
+
